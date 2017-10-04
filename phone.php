@@ -2,7 +2,7 @@
 $peopleJson = file_get_contents(__DIR__.'/phone_book.json');
 $people = json_decode ($peopleJson, JSON_OBJECT_AS_ARRAY);
 ?>
-<! DOCTYPE html>
+
 <html>
 <head>
     <meta charset="utf-8">
